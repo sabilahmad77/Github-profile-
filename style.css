@@ -1,0 +1,99 @@
+@import url('http://fonts.googleleapsis.com//css2?family=poppines:wght@200;400&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2a2a72;
+    font-family: 'poppines', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.user-form {
+    width: 100%;
+    max-width: 700px;
+}
+
+.inp {
+    width: 100%;
+    height: 50px;
+    display: block;
+    background-color: #4c2885;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    margin-bottom: 2px;
+    font-family: inherit;
+    font-size: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.user-form input::placeholder {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.card {
+    max-width: 800px;
+    background-color: #4c2885;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    padding: 3rem;
+    margin: 0 0.5rem;
+    margin-top: 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 10px solid #2a2a72;
+    height: 150px;
+    width: 150px;
+}
+
+.user-info {
+    columns: #eee;
+    margin-left: 2em;
+}
+
+.user-info h2 {
+    margin-top: 0;
+}
+
+.user-info ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 400px;
+}
+
+.user-info ul li {
+    display: flex;
+    align-items: center;
+}
+
+.user-info ul li strong {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+.repo {
+    text-decoration: none;
+    color: white;
+    background-color: #212a72;
+    font-size: 0.7rem;
+    padding: 3px;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
